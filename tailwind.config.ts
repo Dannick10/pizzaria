@@ -8,9 +8,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sansita: ["Sansita", "sans-serif"],
+        sen: ['Sen', 'sans-serif'],
+        SansitaOne: ["Sansita One", "cursive"],
       },
     },
   },

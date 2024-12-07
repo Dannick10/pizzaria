@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/Header";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const Sesation = localFont({
+  src: "./fonts/Sansation_Regular.ttf",
+  variable: "--font-sesation",
   weight: "100 900",
 });
 
@@ -24,11 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="pt-br">
+      <body>
+        <Header />
+        <main className="min-h-80 py-8 gap-8 flex flex-col items-center">
         {children}
+        </main>
       </body>
     </html>
   );
