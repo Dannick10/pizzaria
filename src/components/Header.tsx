@@ -24,9 +24,9 @@ const Header = () => {
   ];
 
   return (
-    <header className="flex justify-around items-center px-4 py-2 text-[18px]">
+    <header className="flex justify-around items-center px-4 py-2 text-[20px]">
       <div className="flex items-center gap-28">
-        <span className=" font-bold text-[30px] text-[#FE3D00] font-SansitaOne italic">
+        <span className=" font-bold text-[36px] text-[#FE3D00] font-SansitaOne italic">
           PIZZA
         </span>
         <ul className="flex gap-6">
