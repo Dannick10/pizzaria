@@ -11,7 +11,7 @@ const Menu = () => {
         Explore our mouth-watering options and find your favorite slice!
       </p>
 
-        <div className="flex justify-center items-center px-40 p-10 flex-wrap gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10 lg:px-40">
             {pizzas.map((pizza, index) => (
                 <CardsPizza key={index} img={pizza.img} name={pizza.name} price={pizza.price} description={pizza.description} />    
             ))}

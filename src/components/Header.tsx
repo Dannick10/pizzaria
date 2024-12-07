@@ -1,6 +1,7 @@
 import { icon_Search, icon_shopping } from "@/utils/icon";
 import Link from "next/link";
 import React from "react";
+import ButtonHamburguer from "./ButtonHamburguer";
 
 type NavItems = {
   name: string;
@@ -25,11 +26,11 @@ const Header = () => {
 
   return (
     <header className="flex justify-around items-center px-4 py-2 text-[20px]">
-      <div className="flex items-center gap-28">
+      <div className="flex items-center lg:gap-28 md:gap-10">
         <span className=" font-bold text-[36px] text-[#FE3D00] font-SansitaOne italic">
           PIZZA
         </span>
-        <ul className="flex gap-6">
+        <ul className="gap-6 hidden md:flex">
           {NavItems.map((items, index) => (
             <Link className="relative" href={items.link} key={index}>
               <li className="relative group px-2 hover:text-[#D9D9D9] transition-colors duration-300">
@@ -43,9 +44,10 @@ const Header = () => {
       <div className="flex gap-2">
         <span className="text-2xl cursor-pointerd">{icon_shopping()}</span>
         <span className="text-2xl cursor-pointerd">{icon_Search()}</span>
-        <button className="bg-[#FE3D00] text-white px-10 rounded-2xl">
+        <button className="hidden md:block bg-[#FE3D00] text-white px-10 rounded-2xl">
           Sign up
         </button>
+      <ButtonHamburguer items={NavItems} />
       </div>
     </header>
   );
