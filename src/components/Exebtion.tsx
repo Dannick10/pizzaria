@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { icdon_arrow } from '@/utils/icon';
 const Exebtion = () => {
   return (
-    <section className="flex justify-center px-10 md:px-20 mt-8 flex-wrap-reverse lg:flex-nowrap">
+    <section className="flex mt-32 justify-center px-10 md:px-20 mt-8 flex-wrap-reverse lg:flex-nowrap">
     <div className="flex flex-col gap-4 justify-center items-baseline lg:pl-10 md:max-w-3xl">
       <p className="text-[28px] font-bold font-SansitaOne text-[#FE3D00] -rotate-12">Pizza</p>
       <h2 className="font-bold font-sansita text-[36px]">Flavor that warms your heart, straight from the oven to your table!</h2>

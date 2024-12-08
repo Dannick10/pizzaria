@@ -25,7 +25,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="flex justify-around items-center px-4 py-2 text-[20px]">
+    <header className="fixed z-10 bg-white  w-full flex justify-around items-center px-4 py-2 text-[20px]">
       <div className="flex items-center lg:gap-28 md:gap-10">
         <span className=" font-bold text-[36px] text-[#FE3D00] font-SansitaOne italic">
           PIZZA
