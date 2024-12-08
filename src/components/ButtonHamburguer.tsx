@@ -10,7 +10,7 @@ type ButtonHamburguerProps = {
   }[];
 };
 const ButtonHamburguer = ({ items: NavItems }: ButtonHamburguerProps) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const hanldeChangeButton = () => {
     setIsOpen(!isOpen);

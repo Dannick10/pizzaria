@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footter";
 
 const Sesation = localFont({
   src: "./fonts/Sansation_Regular.ttf",
@@ -26,6 +27,7 @@ export default function RootLayout({
         <main className="min-h-80 py-8 gap-8 flex flex-col items-center">
         {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
