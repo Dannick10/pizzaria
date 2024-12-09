@@ -33,7 +33,7 @@ const ButtonHamburguer = ({ items: NavItems }: ButtonHamburguerProps) => {
   return (
     <>
       <div
-        className="fixed right-5 flex md:hidden z-20 flex-col gap-1 cursor-pointer"
+        className="flex md:hidden z-20 flex-col gap-1 cursor-pointer"
         onClick={hanldeChangeButton}
       >
         <span
@@ -55,7 +55,9 @@ const ButtonHamburguer = ({ items: NavItems }: ButtonHamburguerProps) => {
 
       {isOpen && (
         <>
-          <span className="w-full h-full top-0 left-0 fixed bg-black bg-opacity-10 backdrop-blur-sm"></span>
+          <span className="w-full h-full top-0 left-0 fixed bg-black bg-opacity-10 backdrop-blur-sm"
+          onClick={hanldeChangeButton}
+          ></span>
           <div className="fixed top-0 right-0 border-l-2 border-orange-600 0 bg-white text-white z-10 w-4/6 h-full">
             <ul className="gap-6 flex flex-col text-[#FE3D00] py-16">
               {NavItems.map((items, index) => (
