@@ -28,7 +28,7 @@ const Exebtion = () => {
   }, []);
 
   return (
-    <section className="flex justify-center px-10 md:px-20 mt-10 flex-wrap-reverse lg:flex-nowrap">
+    <section className="flex justify-center px-10 md:px-20 mt-10 flex-wrap-reverse lg:flex-nowrap overflow-hidden">
       <div className="flex flex-col gap-4 justify-center items-baseline lg:pl-10 md:max-w-3xl">
         <p className="text-[28px] font-bold font-SansitaOne text-[#FE3D00] -rotate-12">
           Pizza
