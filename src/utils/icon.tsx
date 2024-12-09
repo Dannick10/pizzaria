@@ -4,6 +4,7 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 import instagram from "/public/instagram.svg";
 import facebook from "/public/facebook.svg";
 import whatsapp from "/public/whatsapp.svg";
+import { FaRegArrowAltCircleUp } from "react-icons/fa";
 export const icon_shopping = () => {
   return <HiOutlineShoppingCart />;
 };
@@ -28,3 +29,6 @@ export const icon_whatsapp = () => {
   return whatsapp
 }
 
+export const icon_arrow_up = () => {
+  return <FaRegArrowAltCircleUp />
+}

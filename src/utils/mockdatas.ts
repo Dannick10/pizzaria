@@ -1,40 +1,123 @@
 import pizza from "/public/pizza.png";
 export const pizzas = [
     {
- 
-        img: pizza,
-        name: "Pizza",
-        price: "10.00",
-        description: "pizzas are a delicious and versatile dish that can be enjoyed by people of all ages. They are made with a variety of toppings, such as cheese, vegetables, meats, and more. Pizzas are often served hot and can be enjoyed as a main course or as a side dish."
+      img: pizza,
+      name: "Margherita",
+      price: "12.00",
+      description: "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves, drizzled with olive oil.",
     },
     {
-        img: pizza,
-        name: "Pizza",
-        price: "10.00",
-        description: "pizzas are a delicious and versatile dish that can be enjoyed by people of all ages. They are made with a variety of toppings, such as cheese, vegetables, meats, and more. Pizzas are often served hot and can be enjoyed as a main course or as a side dish."
+      img: pizza,
+      name: "Pepperoni",
+      price: "14.00",
+      description: "A fan favorite with spicy pepperoni slices, melted mozzarella cheese, and a crispy crust.",
     },
     {
-        img: pizza,
-        name: "Pizza",
-        price: "10.00",
-        description: "pizzas are a delicious and versatile dish that can be enjoyed by people of all ages. They are made with a variety of toppings, such as cheese, vegetables, meats, and more. Pizzas are often served hot and can be enjoyed as a main course or as a side dish."
+      img: pizza,
+      name: "Four Cheese",
+      price: "16.00",
+      description: "A cheese lover's dream with a mix of mozzarella, cheddar, parmesan, and blue cheese.",
     },
     {
-        img: pizza,
-        name: "Pizza",
-        price: "10.00",
-        description: "pizzas are a delicious and versatile dish that can be enjoyed by people of all ages. They are made with a variety of toppings, such as cheese, vegetables, meats, and more. Pizzas are often served hot and can be enjoyed as a main course or as a side dish."
+      img: pizza,
+      name: "BBQ Chicken",
+      price: "15.00",
+      description: "A smoky and savory delight with grilled chicken, barbecue sauce, red onions, and melted cheese.",
     },
     {
-        img: pizza,
-        name: "Pizza",
-        price: "10.00",
-        description: "pizzas are a delicious and versatile dish that can be enjoyed by people of all ages. They are made with a variety of toppings, such as cheese, vegetables, meats, and more. Pizzas are often served hot and can be enjoyed as a main course or as a side dish."
+      img: pizza,
+      name: "Vegetarian",
+      price: "13.00",
+      description: "Loaded with fresh vegetables like bell peppers, mushrooms, olives, and onions on a bed of rich tomato sauce.",
     },
     {
-        img: pizza,
-        name: "Pizza",
-        price: "10.00",
-        description: "pizzas are a delicious and versatile dish that can be enjoyed by people of all ages. They are made with a variety of toppings, such as cheese, vegetables, meats, and more. Pizzas are often served hot and can be enjoyed as a main course or as a side dish."
+      img: pizza,
+      name: "Hawaiian",
+      price: "14.50",
+      description: "A sweet and savory mix of ham, pineapple chunks, and melted mozzarella cheese.",
     },
-]
+    {
+      img: pizza,
+      name: "Meat Lover's",
+      price: "17.00",
+      description: "Packed with pepperoni, sausage, ham, and bacon for the ultimate carnivore experience.",
+    },
+    {
+      img: pizza,
+      name: "Buffalo Chicken",
+      price: "15.50",
+      description: "Spicy and flavorful with buffalo sauce, grilled chicken, and a drizzle of ranch or blue cheese dressing.",
+    },
+    {
+      img: pizza,
+      name: "Seafood Delight",
+      price: "18.00",
+      description: "A luxurious pizza topped with shrimp, squid, mussels, and a garlic butter drizzle.",
+    },
+    {
+      img: pizza,
+      name: "Pesto Veggie",
+      price: "14.00",
+      description: "Fresh vegetables like zucchini, cherry tomatoes, and spinach on a pesto base.",
+    },
+    {
+      img: pizza,
+      name: "Truffle Mushroom",
+      price: "19.00",
+      description: "Earthy and aromatic with truffle oil, mushrooms, and creamy cheese.",
+    },
+    {
+      img: pizza,
+      name: "Spicy Jalapeño",
+      price: "14.50",
+      description: "A fiery combination of jalapeños, spicy sausage, and hot sauce for the adventurous.",
+    },
+    {
+      img: pizza,
+      name: "Carbonara",
+      price: "16.50",
+      description: "Inspired by the pasta dish, with creamy sauce, pancetta, and a sprinkle of parmesan.",
+    },
+    {
+      img: pizza,
+      name: "Mediterranean",
+      price: "15.00",
+      description: "A healthy mix of feta cheese, olives, sun-dried tomatoes, and spinach.",
+    },
+    {
+      img: pizza,
+      name: "Cheeseburger Pizza",
+      price: "16.00",
+      description: "Combining the best of both worlds with ground beef, cheddar cheese, pickles, and burger sauce.",
+    },
+    {
+      img: pizza,
+      name: "Caprese",
+      price: "13.50",
+      description: "Fresh and simple with mozzarella, tomatoes, and a balsamic glaze.",
+    },
+    {
+      img: pizza,
+      name: "White Pizza",
+      price: "15.50",
+      description: "A creamy base with ricotta, mozzarella, garlic, and parmesan, topped with fresh herbs.",
+    },
+    {
+      img: pizza,
+      name: "Taco Pizza",
+      price: "16.50",
+      description: "A fusion of Mexican flavors with seasoned beef, salsa, lettuce, and tortilla chips.",
+    },
+    {
+      img: pizza,
+      name: "Prosciutto & Arugula",
+      price: "18.00",
+      description: "Thin slices of prosciutto, fresh arugula, and a drizzle of olive oil on a crispy crust.",
+    },
+    {
+      img: pizza,
+      name: "Chocolate Dessert Pizza",
+      price: "10.00",
+      description: "A sweet treat with melted chocolate, fresh strawberries, and a dusting of powdered sugar.",
+    },
+  ];

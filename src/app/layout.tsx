@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body>
         <Header />
-        <main className="min-h-80 py-8 gap-8 flex flex-col items-center">
+        <main className="min-h-80 py-10 pt-36 gap-8 flex flex-col items-center">
         {children}
         </main>
         <Footer />
