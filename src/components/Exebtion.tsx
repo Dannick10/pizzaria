@@ -4,8 +4,7 @@ import React, { useEffect, useState } from "react";
 import pizza from "/public/pizza.png";
 import Image from "next/image";
 import { icdon_arrow, icon_arrow_up } from "@/utils/icon";
-import { HTMLMotionProps, motion } from "framer-motion";
-import { div } from "framer-motion/client";
+import { motion } from "framer-motion";
 
 const Exebtion = () => {
   const [scrollY, setScrollY] = useState(0);
